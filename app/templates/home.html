@@ -18,7 +18,9 @@
             <div class="col">
                 <hr/>
                 {% if search_results %}
-                    <p>{{ search_results }}</p>
+                    {% for i in search_results %}
+                        <p>{{ i }}</p>
+                    {% endfor %}
                 {% else %}
                     <p>No results found.</p>
                 {% endif %}

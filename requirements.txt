@@ -2,3 +2,4 @@ Flask==2.1.1
 python-dotenv==0.20.0
 flask-wtf==1.0.1
 flask-bootstrap==3.3.7.1
+psycopg2-binary==2.9.3
